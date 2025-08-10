@@ -19,7 +19,27 @@ const parent = React.createElement("div", {id: "parent"}, [
 ]);
 
 console.log(parent);
+//JSX - HTML like syntax
+function Title(){ 
+    return(
+        <h1 className="head">
+        Namaste react from JSX
+        </h1>
+    )
+};
+const number = 1000;
+//Functional Component
+// Component composition - 
+const HeadingComponent = () => {
+    return (
+        <div id="container">
+            <h2>{number}</h2>
+            <Title/>
+            <h1 className="heading">This is a functional component</h1>
+        </div>
+    )
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent)
+root.render(<HeadingComponent/>);
