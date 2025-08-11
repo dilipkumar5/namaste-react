@@ -1,0 +1,1 @@
+export const RES_URL = "https://tb-static.uber.com/prod/image-proc/processed_images/2bd3ad3aacf5927588f4dae8236cf9fc/db809eadd12d21eb61044e0f3bf7c9b7.jpeg";
